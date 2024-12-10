@@ -34,24 +34,18 @@ span {
 }
 
 .referencias {
-    padding: 20px;
     text-align: center;
-    @media screen and (max-width: 900px) {
-        .referencias  {
-            font-size: 0%;
-        }
-    }
+}
+.referencias p {
+    padding-top: 0px;
+    font-size: 1rem;
+    color: #666;
 }
 
 .referencias h2 {
     margin-bottom: 20px;
     font-size: 1.5rem;
     color: #333;
-    @media screen and (max-width: 900px) {
-        .referencias h2 {
-            font-size: .8rem;
-        }
-    }
 }
 
 .imgHolder {
@@ -80,30 +74,41 @@ span {
     text-align: center;
 }
 
-
-
-.garantia {
-    text-align: center; 
+.main-section {
     padding: 20px;
-    background-color: #f9f9f9;
+    background: #ede7f6;
+    border-radius: 10px;
+}	
+
+.container{
+    display: block;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
 }
 
-.garantia img {
-    max-width: 300px; 
-    height: auto; 
-    margin: 20px auto; 
-    display: block; 
+.saction-title{
+    display: block;
+    background: red;
+    max-width: 300px;
+    text-align: center;
+    font-size: 1.5rem;
+    margin: auto;
+    border-radius: 10px;    
+    
 }
 
-.garantia h2 {
-    font-size: 1.5rem; 
-    margin-bottom: 10px;
+.saction-garantia p{	
+    display: block;
+    background-color: #000;
+    text-align: center;
+    font-size: 20px;
 }
 
-.garantia p {
-    font-size: 2rem; 
-    margin-bottom: 20px;
-    font: bold;
+.about-img{
+    max-width: 200px; 
+    height: auto;
+    border-radius: 10px;
 }
 
 .testemunhas {
@@ -111,32 +116,16 @@ span {
     background: #ede7f6;
     border: 1px solid #d1c4e9;
     border-radius: 10px;
-    @media (max-width: 900px) {
-        .testemunhas {
-            font-size: 1rem;
-        }
-    }
 }
 
 .testemunhas h2{
     font-size: 1.6rem;
     text-align: center;
-    @media (max-width: 900px) {
-        .testemunhas h2 {
-            font-size: 1rem;
-        }
-    }
 }
 
 .testemunhas h3{
     border-radius: 10px;
     background: #d89a67;
-    @media (max-width: 900px) {
-        .testemunhas h3 {
-            font-size: 1rem;
-        }
-    }
-    
 }
 
 
@@ -225,6 +214,4 @@ footer {
     }
 }
 
-author{
-    text-align: left;
-}
+
